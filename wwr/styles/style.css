@@ -50,7 +50,7 @@ nav a:hover {
 
 .home-title {
     color: #353535;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Splash', 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -75,11 +75,13 @@ nav a:hover {
 
 
 .msg h2 {
-    color: #353535;
+    /* color: #353535; */
+    color: #F1F3EC;
 }
 
 .msg p {
-    color: #353535;
+    /* color: #353535; */
+    color: #F1F3EC;
     padding-bottom: 15px;
     font-size: .8em;
 }
