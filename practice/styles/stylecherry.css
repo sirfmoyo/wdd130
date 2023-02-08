@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+#everything {
+    display: block;
+    text-align: center;
+}
+
+.mainwords {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+/* .mainwords, .apple {
+    grid-area: 1/1;
+} */
+
+.img-responsive {
+    background: #eee no-repeat 50% 50% /cover;
+    overflow: hidden;
+  }
+
+
+#everything {
+    display: grid;
+  }
+  
+#leftside, #rightside {
+    display: inline;
+    grid-area: 1 / 1;
+  }
+  
