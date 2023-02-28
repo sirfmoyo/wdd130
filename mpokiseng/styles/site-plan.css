@@ -23,7 +23,8 @@ font-family: 'Rye', cursive; */
   --accent2-color: white; */
 
 
-  --primary-color: #315659   ;
+  /* --primary-color: #315659   ; */
+  --primary-color: #c5ffff   ;
   --secondary-color: #A78682 ;
   --accent1-color: #56203D;
   --accent2-color: #B3DEC1;
@@ -38,7 +39,8 @@ font-family: 'Rye', cursive; */
   --paragraph-color-on-white: #315659; /* paragraph text on a white background */ 
   --paragraph-color-on-color: B3DEC1; /* paragraph text on a colored background */ 
   --paragraph-background-color: #315659  ;
-  --nav-link-color: #315659;
+  /* --nav-link-color: #315659; */
+  --nav-link-color: #c5ffff;
   --nav-background-color: #A78682;
   --nav-hover-link-color: #B3DEC1;
   --nav-hover-background-color: #315659;
