@@ -329,4 +329,33 @@ nav {
         margin-top: 25px;
     }
 }
-            
+
+/* SECOND PAGE */
+
+.river1, .river2, .river3 {
+    border: 1px solid black;
+    background: white;
+    margin: 0 auto;
+    padding: 1%;
+    
+
+}
+
+.river1_content, .river2_content, .river3_content {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid red;
+
+}
+
+.river1_text, .river2_text, .river3_text {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.river1_content h2 , .river2_content h2 , .river3_content h2 {
+    text-align: left;
+    padding-left: 15px;
+    border: 1px solid blue;
+}
