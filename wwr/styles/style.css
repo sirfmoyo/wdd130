@@ -333,7 +333,7 @@ nav {
 /* SECOND PAGE */
 
 .river1, .river2, .river3 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: white;
     margin: 0 auto;
     padding: 1%;
@@ -344,7 +344,7 @@ nav {
 .river1_content, .river2_content, .river3_content {
     display: flex;
     align-items: flex-start;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -357,5 +357,5 @@ nav {
 .river1_content h2 , .river2_content h2 , .river3_content h2 {
     text-align: left;
     padding-left: 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
