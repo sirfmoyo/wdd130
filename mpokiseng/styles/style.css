@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     text-align: center;
+   
 }
 
 
@@ -212,9 +213,8 @@ nav {
     /* background: white; */
     background-color: #fcfbfb;
     margin: 0 auto;
-    padding: 1%;
+    padding: 5px;
     border-bottom-width: 4px;
-
 
     /* border-color: gold;
     border-radius: 2px;
@@ -442,10 +442,10 @@ body {
     border-color: #fcfbfb;
     /* border-radius: 5px 10px; */
     border-style: outset;
-    border-top-color: #fcfbfb;
-    border-left-color: #fcfbfb;
+    border-top-color: #315659;
     border-right-color: #315659;
-    border-bottom-color: #315659;
+    border-left-color: #fcfbfb;
+    border-bottom-color: #fcfbfb;
 
 } 
 
