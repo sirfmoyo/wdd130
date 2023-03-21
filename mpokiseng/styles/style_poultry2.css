@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.');
 
-
+/* REST OF PAGE  */
 body {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1.5em;
     font-size: 18px;
     text-align: center;
-    background-color: rgba(179, 222, 193, 1);
+    /* background-color: #fff0f3; */
+    /* background-color: rgba(49, 86, 89, .4); */
+    /* background-color: rgba(179, 222, 193, 1); */
+
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,14 +21,14 @@ h1, h2, h3, h4, h5, h6 {
     color:  #315659;
 }
 
+
+/* DUMMY BOX */
 #dummybox {
     display: flex;
     align-items: center;
     align-items: stretch;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
-    
 }
 
 #links{
@@ -33,88 +40,64 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(49, 86, 89, .6);
     border: 2px solid #315659;;
     border-radius: 10px;
-    
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
 }
 
 /* THIS IS FOR THE MAIN CONTENT */
 
-/* left image */
+#mainwrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 1200px;
 
-.home-title {
-    font-family: 'Merriweather', sans-serif;
-    height: 90%;
-    padding-bottom: -15px;
-    margin: 0;
-    border-color: red;
-    border-radius: 2px;
-    border-style: solid;
+    margin-top: 5px;
+    padding: 1%;
    
-}
+    margin-top: 5px;
+    padding: 1%;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    /* flex-direction: row; */
 
-#three_sections {
-    background-color: #B3DEC1;
-    padding: 2.5px;
-    margin: auto;
+
     border-color: red;
     border-radius: 2px;
     border-style: solid;
 }
 
-#titleimage {
-    float: left;
-    max-width: 600px;
-    height: auto;
+#maintextpoultry {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
     padding: 15px;
-    /* width: 25%;
-    padding: 1%; */
-  }
+    display: flex;
+    align-items: flex-start;
+    flex: 1 1;
+    flex-direction: column; /*this is what actually made my items to stack one on top of the other*/
+    justify-content: space-between;
+    align-items: center;
+
+    vertical-align: top;
+
+
+}
 
 #broilerbig {
     float: left;
     max-width: 600px;
     height: auto;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 
 #broilersmall {
-    float: left;
     max-width: 600px;
     height: auto;
-    padding: 15px;
-    /* width: 25%;
-    padding: 1%; */
-}
-
-#topictext {
-    text-align: rigt;
-    margin-right: 300px;
-    padding-right: 500px;
-    /* border-color: red;
-    border-radius: 2px;
-    border-style: solid; */
+    padding-bottom: 15px;
 
 }
-
-
-/* FORMATING LISTS AND TEXT */
-.listitems, .numbereditems {
-    font-size: 95%;
-    text-indent: 10px;
-    margin-left: 40px;
-    padding-left: 0;
-}
-.listitems li {
-    margin-bottom: 5px;
-    
-    
-}
-
-.numbereditems li {
-    color:  #315659;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-.bolded { 
-    font-weight: bold; 
+#container1 {
+    max-width: 600px;
 }
