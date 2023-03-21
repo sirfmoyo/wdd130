@@ -45,19 +45,15 @@ h1, h2, h3, h4, h5, h6 {
     height: 90%;
     padding-bottom: -15px;
     margin: 0;
-    border-color: red;
-    border-radius: 2px;
-    border-style: solid;
-   
 }
 
 #three_sections {
     background-color: #B3DEC1;
     padding: 2.5px;
     margin: auto;
-    border-color: red;
+    /* border-color: red;
     border-radius: 2px;
-    border-style: solid;
+    border-style: solid; */
 }
 
 #titleimage {
@@ -65,8 +61,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 600px;
     height: auto;
     padding: 15px;
-    /* width: 25%;
-    padding: 1%; */
   }
 
 #broilerbig {
@@ -81,17 +75,12 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 600px;
     height: auto;
     padding: 15px;
-    /* width: 25%;
-    padding: 1%; */
 }
 
 #topictext {
     text-align: rigt;
     margin-right: 300px;
     padding-right: 500px;
-    /* border-color: red;
-    border-radius: 2px;
-    border-style: solid; */
 
 }
 
