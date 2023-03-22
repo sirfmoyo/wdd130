@@ -474,7 +474,3 @@ body {
 #freeman {
     max-width:1000px;
 }
-
-ol > li::marker {
-    font-weight: bold;
-  }
