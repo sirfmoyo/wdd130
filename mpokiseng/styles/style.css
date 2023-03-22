@@ -105,7 +105,7 @@ nav {
     border: 1px solid rgba(49, 86, 89, .2);
     border-radius: 10px;
     
-    background-color: rgba(49, 86, 89, .6);
+    background-color: rgba(49, 86, 89, .4);
     
 }
 
@@ -134,7 +134,7 @@ nav {
     border-style: solid;  */
 
     margin-top: 5px;
-    padding: 1%;
+    /* padding: 1%; */
     display: flex;
     align-items: center;
     align-items: stretch;
@@ -147,7 +147,7 @@ nav {
     text-align: center;
     position: relative;
     margin: 0 auto;
-    padding: 15px;
+    /* padding-top: 15px; */
     /* border-bottom-width: 4px; */
     display: flex;
     align-items: flex-start;
@@ -160,6 +160,23 @@ nav {
     align-items: center;
 
     vertical-align: top;
+}
+
+#container1 {
+    margin-left: 0;
+    padding: 15px 0px 0px 0px;
+}
+
+#container2 {
+   
+    padding: 15px 15px 0px 15px;
+}
+
+#container3 {
+   
+    padding: 15px 0px 0px 0px;
+    
+    
 }
 
 #maintext1, #maintext2, #maintext3 {
@@ -227,7 +244,7 @@ nav {
 footer {
     background-color: #315659; /* #A78682; #4d908e;*/
     color: #fcfbfb;
-    padding: 25px 25px;
+    padding: 15px 15px;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -452,4 +469,8 @@ body {
 .book:hover {
     background-color: #56203D;
     color: #B3DEC1;
+}
+
+#freeman {
+    max-width:1000px;
 }

@@ -1,13 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.'); */
 
-
+/* 
 body {
     max-width: 1200px;
     margin: 0 auto;
     font-size: 18px;
     text-align: center;
     background-color: rgba(179, 222, 193, 1);
+} */
+
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    font-size: 18px;
+    text-align: center;
+    /* background-color: #fff0f3; */
+    /* background-color: rgba(49, 86, 89, .4); */
+    background-color: rgba(179, 222, 193, 1);
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
@@ -20,19 +33,18 @@ h1, h2, h3, h4, h5, h6 {
     align-items: stretch;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
+    padding-top: 10px;
     
 }
 
 #links{
     max-width: 1200px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto; /*I created three columns so that I have an empty space btwn logo and nav bars*/
-    opacity: 80%;
+    grid-template-columns: auto auto auto auto auto;
     color: #B3DEC1;
     background-color: rgba(49, 86, 89, .6);
-    border: 2px solid #315659;;
-    border-radius: 10px;
+    border: 1px solid rgba(49, 86, 89, .1);
+    border-radius: 2px 15px;
     
 }
 
@@ -107,3 +119,4 @@ h1, h2, h3, h4, h5, h6 {
 .bolded { 
     font-weight: bold; 
 }
+
