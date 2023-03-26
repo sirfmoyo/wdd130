@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
     grid-template-rows: auto auto auto;
     padding: 10px;
-    background-color: #fcfbfb;
+    /* background-color: #fcfbfb; */
+    background-color: rgba(86, 32, 61, .1);
     /* border-color: blue;
     border-radius: 2px;
     border-style: solid; */
@@ -72,7 +73,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     text-align: left;
     display: grid;
-    background-color: #fcfbfb;
+    /* background-color: #fcfbfb; */
+    background-color: rgba(86, 32, 61, .1);
     /* vertical-align: top; */
 
     /* border-color: red;
