@@ -14,7 +14,8 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
-    color:  #315659;
+    /* color:  #315659; */
+    color:#56203D;
 }
 
 h2 {
@@ -105,7 +106,9 @@ nav {
     border: 1px solid rgba(49, 86, 89, .2);
     border-radius: 10px;
     
-    background-color: rgba(49, 86, 89, .4);
+    /* background-color: rgba(49, 86, 89, .4); */
+    background-color:     rgba(86, 32, 61, .5);
+    
     
 }
 
@@ -215,7 +218,8 @@ nav {
     background-color: #fcfbfb;
     padding: 15px 15px 0px 15px;
     margin: auto auto 0 auto;
-    border-color: #fcfbfb;
+    /* border-color: #fcfbfb; */
+    border-color: #56203D;
     border-radius: 2px;
     border-style: solid;
     border-bottom-width: 10px;
