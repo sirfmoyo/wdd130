@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 70%;
     height: auto;
     padding: 15px;
+    justify-content: flex-end;
 }
 
 #advert {
@@ -107,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#advert-msg h1, #advert-msg h6  {
+#advert-msg h2, #advert-msg h6  {
     text-align: left;
     /* color: #B3DEC1; */
     color: #fcfbfb;
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #planttrees, #didyouknowbox, #schools, #sobhuku {
-    border-color: rgba(49, 86, 89, .1);
+    border-color: rgba(49, 86, 89, .7);
     border-radius: 2px;
     border-style: solid;
 }
@@ -153,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .seedling {
     max-width: 100%;
-    height: 400px;
+    height: auto;
     
 }
 
