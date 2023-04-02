@@ -1,134 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.');
 
-:root {
-  --primary-color: #c5ffff;
-  --secondary-color: #A78682;
-  --accent1-color: #56203D;
-  --accent2-color: #B3DEC1;
-}
 
 #content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.5em;
-  font-size: 18px;
-  text-align: center;
-  background-color: rgba(179, 222, 193, 1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    font-size: 18px;
+    text-align: center;
+    /* background-color: #fff0f3; */
+    /* background-color: rgba(49, 86, 89, .4); */
+    background-color: rgba(179, 222, 193, 1);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
-  color: #56203D;
+    font-family: 'Merriweather', serif;
+    /* color:  #315659; */
+    color:#56203D;
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
+   
 }
 
+
 header {
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: 150px auto auto;
-  opacity: 80%;
-  color: #B3DEC1;
-  background-color: #315659;
-  border: 2px solid #315659;
-  border-radius: 10px;
+    /* background-color: #ccc5b9; */
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 150px auto auto; /*I created three columns so that I have an empty space btwn logo and nav bars*/
+    opacity: 80%;
+    color: #B3DEC1;
+    background-color: #315659;
+    border: 2px solid #315659;;
+    border-radius: 10px;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
+    
 }
 
 #id_logo {
-  width: 200px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
 }
 
 .logo1 {
-  width: 90%;
-  grid-column: 1/2;
-  margin: auto;
-  display: block;
-  padding: 5px;
+    width: 90%;
+    grid-column: 1/2;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
 }
 
 .logo2 {
-  width: 90%;
-  grid-column: 2/3;
-  margin: auto;
-  display: block;
-  padding: 5px;
+    width: 90%;
+    grid-column: 2/3;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
 }
 
 nav a {   
-  text-align: center;
-  text-decoration: none;
-  padding: 35px;
-  opacity: 1;
-  color: #fcfbfb;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    opacity: 1;
+    color: #fcfbfb;
 } 
 
 nav a:hover {
-  background-color: #56203D;
-  color: #B3DEC1;
+    background-color: #56203D;
+    color: #B3DEC1;
 }
 
+
 nav {
-  grid-column: 3/4;
-  display: flex;
-  justify-content: space-around;
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 #hero-msg h1, #hero-msg h4  {
-  text-align: center;
+    text-align: center;
+    /* color: #F1F3EC; */
+    
 }
 
 #hero-msg {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 100px;
-  border: 1px solid rgba(49, 86, 89, .2);
-  border-radius: 10px;
-  background-color: rgba(86, 32, 61, .5);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    /* background-color: #315659; */
+    border: 1px solid rgba(49, 86, 89, .2);
+    border-radius: 10px;
+    
+    /* background-color: rgba(49, 86, 89, .4); */
+    background-color:     rgba(86, 32, 61, .5);
+    
+    
 }
+
 
 #hero-img {
-  width: 100%;
-  grid-column: 2/4;
-  grid-row: 1/3;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 1/3;
+
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
+   
 }
+
+
+
 
 #three_sections {
-  opacity: 0.85;
-  margin-top: 5px;
-  display: flex;
-  align-items: center;
-  align-items: stretch;
-  justify-content: center;
+    /* max-width: 1600px; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    opacity: 0.85;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid;  */
+
+    margin-top: 5px;
+    /* padding: 1%; */
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    
 }
 
-#container1, #container2, #container3 { 
-  text-align: center;
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  vertical-align: top;
+#container1, #container2, #container3 {
+    
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    /* padding-top: 15px; */
+    /* border-bottom-width: 4px; */
+    display: flex;
+    align-items: flex-start;
+    /* border-color: blue;
+    border-radius: 2px;
+    border-style: solid; */
+
+    flex-direction: column; /*this is what actually made my items to stack one on top of the other*/
+    justify-content: space-between;
+    align-items: center;
+
+    vertical-align: top;
 }
 
 #container1 {
-  margin-left: 0;
-  padding: 15px 0px 0px 0px;
+    margin-left: 0;
+    padding: 15px 0px 0px 0px;
 }
 
 #container2 {
-  padding: 15px 15px 0px 15px;
+   
+    padding: 15px 15px 0px 15px;
 }
 
 #container3 {
-  padding: 15
- 0px 0px 0px;
+   
+    padding: 15px 0px 0px 0px;
     
     
 }

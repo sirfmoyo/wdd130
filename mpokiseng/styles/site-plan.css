@@ -4,7 +4,8 @@ Fonts are separated by a | */
 /* @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow+Semi+Condensed:wght@300&family=Lato:ital@1&family=Merriweather&family=Montserrat+Alternates&family=Mulish:wght@300&family=Oxygen:wght@300&family=Rye&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap');
+
 
 /* font-family: 'Alegreya Sans SC', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
@@ -48,6 +49,20 @@ font-family: 'Rye', cursive; */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+
+
+:root {
+  /* root styles */
+}
+
+@media (min-width: 768px) {
+  /* styles for screens with a minimum width of 768px */
+}
+
+@media (min-width: 1024px) {
+  /* styles for screens with a minimum width of 1024px */
+}
+
 
 body {
   max-width: 1200px;
