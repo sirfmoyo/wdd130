@@ -433,3 +433,276 @@ body {
 ol > li::marker {
     font-weight: bold;
   }
+
+
+
+  /* POULTRY CSS */
+
+  #dummybox {
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+
+
+#links{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: #B3DEC1;
+  background-color: rgba(49, 86, 89, .6);
+  border: 1px solid rgba(49, 86, 89, .1);
+  border-radius: 2px 15px;
+  
+}
+
+
+/* THIS IS FOR THE MAIN CONTENT */
+
+/* left image */
+
+.home-title {
+  font-family: 'Merriweather', sans-serif;
+  height: 90%;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+#poultry_three_sections {
+  background-color: #B3DEC1;
+  padding: 2.5px;
+  margin: auto;
+  /* border-color: red;
+  border-radius: 2px;
+  border-style: solid; */
+}
+
+#titleimage {
+  float: left;
+  max-width: 600px;
+  height: auto;
+  padding: 15px;
+}
+
+#broilerbig {
+  float: left;
+  max-width: 600px;
+  height: auto;
+  padding: 15px;
+}
+
+#broilersmall {
+  float: left;
+  max-width: 600px;
+  height: auto;
+  padding: 15px;
+}
+
+#topictext {
+  text-align: right;
+  margin-right: 300px;
+  padding-right: 500px;
+
+}
+
+
+/* FORMATING LISTS AND TEXT */
+.listitems, .numbereditems {
+  font-size: 95%;
+  text-indent: 10px;
+  margin-left: 40px;
+  padding-left: 0;
+}
+.listitems li {
+  margin-bottom: 5px;
+  
+  
+}
+
+.numbereditems li {
+  color:  #315659;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.bolded { 
+  font-weight: bold; 
+}
+
+body {
+  counter-reset: section;      
+}
+
+
+/* CROPS CSS */
+
+/* SETTING UP THE THREE DIVs FOR THE MAIN CONTENT */
+
+#crop_three_sections {
+  display: grid;
+  grid-template-columns: 2fr 10fr 3fr;
+  background-color: #fcfbfb;
+
+  /* border-color: gold;
+  border-radius: 2px;
+  border-style: solid; */
+  align-self: start;
+ 
+}
+
+#crop_container1, #crop_container3, #leftcontent {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  text-align: left;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  /* background-color: #fcfbfb; */
+  background-color: rgba(86, 32, 61, .1);
+  /* border-color: blue;
+  border-radius: 2px;
+  border-style: solid; */
+}
+
+
+#crop_container2 {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  text-align: left;
+  display: grid;
+  /* background-color: #fcfbfb; */
+  background-color: rgba(86, 32, 61, .1);
+  /* vertical-align: top; */
+
+  /* border-color: red;
+  border-radius: 2px;
+  border-style: solid; */
+}
+
+.farming2 {
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/3;
+ 
+}
+
+
+.farming3 {
+  float: right;
+  max-width: 70%;
+  height: auto;
+  padding: 15px;
+  justify-content: flex-end;
+}
+
+#advert {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: auto; 
+
+  /* border-color: red;
+  border-radius: 2px;
+  border-style: solid; */
+  
+}
+
+
+#advert-msg h2, #advert-msg h6  {
+  text-align: left;
+  /* color: #B3DEC1; */
+  color: #fcfbfb;
+
+  /* border-color: red;
+  border-radius: 2px;
+  border-style: solid; */
+  
+}
+
+#advert-msg h6  {
+  font-weight: 300;
+}
+
+#advert-msg {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+  padding-left: 15px;
+}
+
+#hero-img {
+  width: 100%;
+  grid-column: 2/4;
+  grid-row: 1/3;
+ 
+}
+
+#planttrees, #didyouknowbox, #schools, #sobhuku {
+  border-color: rgba(49, 86, 89, .7);
+  border-radius: 2px;
+  border-style: solid;
+}
+
+#planttrees,  #schools {
+  grid-row: 1/2;
+  padding: 15px 0 15px 0;
+  
+
+}
+
+
+
+.seedling {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+#didyouknowbox, #sobhuku {
+  grid-row: 3/4;
+  
+
+}
+
+/* FORMATING LISTS AND TEXT */
+.listitems, .numbereditems {
+  font-size: 95%;
+  text-indent: 10px;
+  margin-left: 40px;
+  padding-left: 0;
+}
+.listitems li {
+  margin-bottom: 5px;
+  
+  
+}
+
+.numbereditems li {
+  color:  #315659;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.bolded { 
+  font-weight: bold; 
+}
+
+.home-title {
+  font-family: 'Merriweather', sans-serif;
+  height: 90%;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+.small-title {
+  font-family: 'Merriweather', sans-serif;
+  height: 50%;
+  padding-bottom: 0px;
+  margin: 0;
+}
