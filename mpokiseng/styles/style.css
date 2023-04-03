@@ -79,6 +79,7 @@ nav {
 
 #hero-msg h1, #hero-msg h4  {
   text-align: center;
+  color: #fcfbfb;
 }
 
 #hero-msg {
@@ -95,6 +96,7 @@ nav {
   grid-column: 2/4;
   grid-row: 1/3;
 }
+
 
 #three_sections {
   opacity: 0.85;
@@ -128,6 +130,7 @@ nav {
 
 #container3 {
   padding: 15px 0px 0px 0px;
+
 }
 
 #maintext1, #maintext2, #maintext3 {
@@ -208,33 +211,16 @@ footer {
 
 }
 
-#hero-msg h1, #hero-msg h4  {
-    text-align: center;
-    /* color: #B3DEC1; */
-    color: #fcfbfb;
-    
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
-
-
 
 
 #background {
     background-color: #4d908e;
     height: 725px;
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
 }
 
-#hero-img {
-    width: 100%;
-    grid-column: 2/4;
-    grid-row: 1/3;
-   
-}
+
 
 #logo_link {
     padding-top: 5px;
@@ -254,22 +240,6 @@ footer {
     grid-row: 1/3;
     /* z-index: -1; */
 }
-
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    
-    
-}
-
-
-#background {
-    grid-column: 1 / 11;
-    grid-row: 4 / 9;
-}
-
 
 
 
@@ -432,19 +402,22 @@ ol > li::marker {
   }
 
 
+/* POULTRY CSS */
 
-  /* POULTRY CSS */
+#dummybox {
+  display: flex;
+  align-items: center;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -10px;
+  /* padding: -10px 0px 0px 0px; */
 
-  #dummybox {
-    display: flex;
-    align-items: center;
-    align-items: stretch;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 10px;
-    
+  /* border-style: solid;
+  border-color: red;
+  border-width: 2px; */
+  
 }
-
 
 #links{
   max-width: 1200px;
@@ -455,56 +428,78 @@ ol > li::marker {
   border: 1px solid rgba(49, 86, 89, .1);
   border-radius: 2px 15px;
   
-}
+  }
 
-
-/* THIS IS FOR THE MAIN CONTENT */
+  /* THIS IS FOR THE MAIN CONTENT */
 
 /* left image */
 
-.home-title {
+.poultry-home-title {
   font-family: 'Merriweather', sans-serif;
   height: 90%;
-  padding-bottom: 0px;
-  margin: 0;
-}
+  padding: 5px;
+  margin-top: -1px;
+/* 
+  border-style: solid;
+  border-color: red;
+  border-width: 2px; */
+  }
 
-#poultry_three_sections {
-  background-color: #B3DEC1;
-  padding: 2.5px;
-  margin: auto;
-  /* border-color: red;
-  border-radius: 2px;
-  border-style: solid; */
-}
+  .poltry-small-title {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  
+  #poultry_three_sections {
+    background-color: #B3DEC1;
+    padding: 2.5px;
+    margin: auto;
+    /* border-color: red;
+    border-radius: 2px;
+    border-style: solid; */
+    }
 
-#titleimage {
-  float: left;
-  max-width: 600px;
-  height: auto;
-  padding: 15px;
-}
 
-#broilerbig {
-  float: left;
-  max-width: 600px;
-  height: auto;
-  padding: 15px;
-}
+  #titleimage {
+      float: left;
+      max-width: 600px;
+      height: auto;
+      padding: 15px;
+   }
+  
+   #broilerbig {
+    float: left;
+    max-width: 600px;
+    height: auto;
+    padding: 15px;
+    }
 
-#broilersmall {
-  float: left;
-  max-width: 600px;
-  height: auto;
-  padding: 15px;
-}
+    #broilersmall {
+      float: left;
+      max-width: 600px;
+      height: auto;
+      padding: 15px;
+      }
+      
+      #topictext {
+      text-align: right;
+      margin-right: 300px;
+      padding-right: 500px;
+      
+      }
+ 
+      
 
-#topictext {
-  text-align: right;
-  margin-right: 300px;
-  padding-right: 500px;
 
-}
+
+
+
+
+
+
+
+
+
 
 
 /* FORMATING LISTS AND TEXT */
@@ -703,3 +698,4 @@ body {
   padding-bottom: 0px;
   margin: 0;
 }
+      
