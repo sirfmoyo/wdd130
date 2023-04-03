@@ -529,6 +529,11 @@ body {
   counter-reset: section;      
 }
 
+#disease-heading {
+  margin-bottom: -10px;
+  padding: -05px;
+}
+
 
 /* CROPS CSS */
 
