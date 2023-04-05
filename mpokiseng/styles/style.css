@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap Links to an external site.');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap');
+
 
 :root {
   --primary-color: #c5ffff;
@@ -518,7 +519,7 @@ body {
 
 .disease-heading {
   margin-bottom: -10px;
-  padding: -05px;
+  padding: 05px;
 }
 
 
